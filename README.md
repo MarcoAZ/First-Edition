@@ -6,5 +6,5 @@
   - Give directions and more info
   
 ##To Do
-- Provide loading feedback more async calls
+- Provide loading feedback for async calls
 - Make mobile friendly
