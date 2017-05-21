@@ -1,4 +1,3 @@
-//run ajax request
 var params = {
     "apikey": apikey.marvel,
     "format": "comic",
@@ -80,8 +79,8 @@ function outputDivs(resp, len) {
     //append final div
     if (ulNum < ulMax) {
         div.appendChild(ul);
-        console.log(ulNum + " # UL appended to div " + divNum);
-        console.log("liNum: " + liNum + "; ulNum: " + ulNum + "; divNum: " + divNum);
+        // console.log(ulNum + " # UL appended to div " + divNum);
+        // console.log("liNum: " + liNum + "; ulNum: " + ulNum + "; divNum: " + divNum);
         ulNum++;
     }
     else {
@@ -91,8 +90,8 @@ function outputDivs(resp, len) {
         div.className = "slide slide-" + divNum;
         div.appendChild(ul);
         slideGroup.appendChild(div);
-        console.log(ulNum + " # UL appended to div " + divNum);
-        console.log("liNum: " + liNum + "; ulNum: " + ulNum + "; divNum: " + divNum);
+        // console.log(ulNum + " # UL appended to div " + divNum);
+        // console.log("liNum: " + liNum + "; ulNum: " + ulNum + "; divNum: " + divNum);
     }
     
     buildSlider();
