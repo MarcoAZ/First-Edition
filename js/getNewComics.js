@@ -20,6 +20,8 @@ $.ajax({
     if (results.code == 200) {
         //save results to global variable
         outputDivs(results.data.results, results.data.count);
+        $('.slide-viewer').show();
+        $('.fake-slide-viewer').css("display", "none");
     }
 }).fail(function (status) {
     console.log(status);

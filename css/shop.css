@@ -9,6 +9,7 @@
     position:relative;
     overflow:hidden;
     height:1000px;
+    display: none;
 }
 
 .slide-group {
@@ -60,6 +61,44 @@
     display:block;
 }
 /*END SLIDESHOW*/
+
+/*FAKE LOADING SLIDER*/
+.fake-slide-viewer {
+    position:relative;
+    overflow:hidden;
+    height:1000px;
+}
+
+.fake-slide-group {
+    width:100%;
+    height:100%;
+    position:relative;
+}
+.fake-slide {
+    display:block;
+    position:absolute;
+    width: 100%;
+    height: 300px;
+    padding: 0;
+}
+
+.fake-slide ul
+{
+    padding: 0;
+    height: 100%;
+    list-style: none;
+}
+
+.fake-slide ul li
+{
+    width: 165px;
+    height: 100%;
+    float: left;
+    margin: 0 10px 0 10px;
+    padding: 0;
+    background-color: darkgray;
+    opacity: 0.2;
+}
 
 /******SLIDESHOW BUTTONS **********/
 .slide-buttons {
