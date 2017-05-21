@@ -1,0 +1,50 @@
+﻿/*****IMAGE PANEL********/
+.panel {
+    height:300px;
+    border: 9px solid #894040;
+    border-top:none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+}
+
+.panel img
+{
+    width:100%;
+}
+
+/*****END IMAGE PANEL********/
+
+/****LOCATION AND CONTACT******/
+.info-container
+{
+    height: 120px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.title-sm
+{
+    font-size: 20px;
+}
+
+.location
+{
+    display: inline-block;
+    margin-left: 220px;
+}
+
+.contact-us
+{
+    display: inline-block;
+    margin-left: 150px;
+}
+
+/****END LOCATION AND CONTACT******/
+
+/***** MAP *****/
+.google
+{
+    margin-top: 25px;
+    text-align: center;
+}

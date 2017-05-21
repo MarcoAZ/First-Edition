@@ -1,0 +1,200 @@
+﻿/*******CONTENT CONTAINERS*********/
+.new {
+    height: 350px;
+}
+
+.featured {
+    height: 390px;
+}
+/*******END CONTENT CONTAINERS******/
+
+/********SLIDESHOW*********/
+.slider {
+    height:300px;
+    /*background-color:green;*/
+    border: 9px solid #894040;
+    border-top:none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.slide-viewer {
+    position:relative;
+    overflow:hidden;
+    height:300px;
+}
+
+.slide-group {
+    width:100%;
+    height:100%;
+    position:relative;
+}
+
+.slide {
+    width:100%;
+    height:100%;
+    display:none;
+    position:absolute;
+    text-align: center;
+}
+
+.slide:first-child {
+    display:block;
+}
+
+/*IMAGES*/
+.slide-1{
+    background-image: url(../images/spiderverse.png);
+}
+
+.slide-2{
+    background-image: url(../images/AvX.png);
+}
+
+.slide-3{
+    background-image: url(../images/sw.png);
+}
+
+.slide-4{
+    background-image: url(../images/civil.png);
+}
+
+.slide-info {
+    color: #fff;
+    font-size:14px;
+    margin-top: -100px;
+}
+
+.shadow
+{
+    background: rgba(25, 25, 25, .7);
+    width: 100%;
+    height: 100px;
+    margin-top: 200px;
+}
+
+/*END SLIDESHOW*/
+
+/******SLIDESHOW BUTTONS **********/
+.slide-buttons {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.slide-btn {
+    border: none;
+    background: none;
+    color: #808080;
+    font-size: 200%;
+    line-height: 0.5em;
+}
+
+.slide-btn.active, .slide-btn:hover {
+    color: #894040;
+    cursor: pointer;
+}
+
+.slide-btn:hover {
+    color: #ed8e6c;
+}
+/********END SLIDESHOW BUTTONS********/
+
+/******SLIDES FOR COMICS*******/
+.frame { 
+    width: 100%;
+    height: 300px;
+    padding: 0; 
+}
+
+.frame .slidee {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+
+.frame .slidee li {
+    float: left; 
+    margin: 0 8px 0 10px;
+    padding: 0; 
+    width: 140px; 
+    height: 80%;
+}
+
+.frame .slidee li img {
+    width: 100%; 
+}
+
+.frame .slidee li p {
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+}
+
+.frame .slidee li p a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.load
+{
+    display: none;
+}
+
+.loading
+{
+    background-color: darkgrey;
+    height: 95%;
+    opacity: 0.2;
+}
+
+.new-comic-fail
+{
+    font-size: 200px;
+    margin: 10px;
+    color: #fff;
+    display: none;
+}
+
+.feat-comic-fail
+{
+    font-size: 200px;
+    margin: 10px;
+    color: #fff;
+    display: none;
+}
+
+/*********END SLIDES**********/
+
+/*****BUTTONS BELOW SLIDES*******/
+.pages
+{
+    list-style: none;
+    text-align: center;
+}
+
+.pages li
+{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin: 0 4px;
+    text-indent: -999px;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    background: #808080;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.2);
+}
+
+.pages li.active {
+    background: #894040;
+}
+
+.pages li:hover {
+    background: #ed8e6c;
+}
+
+/******END BUTTONS BELOW SLIDES*******/

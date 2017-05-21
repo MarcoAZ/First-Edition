@@ -1,0 +1,33 @@
+﻿body {
+    background-color:#283044;
+    color: #894040;
+}
+
+.container
+{
+    margin: 0 auto;
+    width: 1400px;
+    /*background-color: white;*/
+}
+
+.content {
+    font-family:'Century Gothic';
+    width:950px;
+    margin-left:125px;
+}
+
+/*in Chrome, this removes the blue border on buttons when clicked*/
+button:focus {outline:0;}
+
+.title {
+    
+    font-size: 25px;
+    font-style:italic;
+    border-bottom: 5px solid #894040;
+    border-radius: 2px;
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+}

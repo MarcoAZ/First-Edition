@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>First Edition</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <div class="nav-container">
+            <div class="logo">
+                <p><a href=".">FIRST EDITION</a></p>
+            </div>
+            <ul class="nav">
+                <li><a href="new">New</a> <span>| </span></li>
+                <li><a href="featured">Featured</a> <span>| </span></li>
+                <li><a href="events">Events</a> <span>| </span></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="slider">
+            <div class="slide-viewer">
+                <div class="slide-group">
+                    <div class="slide slide-1">
+                        <div class="shadow"></div>
+                        <div class="slide-info">
+                            <p>When the unstoppable Morlun returns, it will take every Spider-Man 
+                                EVER to stop him! Dan Slott and Olivier Coipel spearhead a massive 
+                                event that unites wall-crawlers across all universes against a single
+                                 threat, swinging through Amazing Spider-Man and a web of tie-ins!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slide slide-2">
+                        <div class="shadow"></div>
+                        <div class="slide-info">
+                            <p>The Avengers and the X-Men - the two most popular super-hero teams 
+                                in history - go to war! This landmark event brings together 
+                                Iron Man, Captain America, Thor, Hulk, Black Widow, Spider-Man, 
+                                Wolverine, Cyclops, Storm, Magneto and more in the story that 
+                                changes them forever! It's Marvel's biggest event ever - but will 
+                                the Avengers or the X-Men emerge triumphant? And why has the Phoenix
+                                 appeared?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slide slide-3">
+                        <div class="shadow"></div>
+                        <div class="slide-info">
+                            <p>Time Runs Out. Everything Ends. The Secret Wars commence in May 2015 
+                                from Jonathan Hickman and Esad Ribic!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slide slide-4">
+                        <div class="shadow"></div>
+                        <div class="slide-info">
+                            <p>After a horrific tragedy raises questions on whether or not super 
+                                heroes should register with the government, longtime Avengers 
+                                teammates Captain America and Iron Man end up on opposite sides 
+                                of the argument! Writer Mark Millar and artist Steve McNiven split
+                                 the Marvel Universe in two as friend fights friend in one of the
+                                 most celebrated and successful events of all-time!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-buttons"></div>
+        </div>
+
+        <div class="new">
+            <p class="title">New</p>
+            <div class="frame" id="newFrame">
+                <!--Placeholders for loading comics from Marvel-->
+                <ul class="slidee" id="loading-new">
+                    <li class="loading"><span class="new-comic-fail">X</span></li>
+                    <li class="loading"><span class="new-comic-fail">X</span></li>
+                    <li class="loading"><span class="new-comic-fail">X</span></li>
+                    <li class="loading"><span class="new-comic-fail">X</span></li>
+                    <li class="loading"><span class="new-comic-fail">X</span></li>
+                    <li class="loading"><span class="new-comic-fail">X</span></li>
+                </ul>
+                <!--<ul class="load" id="load-fail-new">FAILED TO LOAD</ul>-->
+                <ul class="slidee" id="new-slidee"></ul>
+            </div>
+            <div class="pages"></div>
+        </div>
+
+        <div class="featured">
+            <p class="title">Featured</p>
+            <div class="frame" id="featFrame">
+                <ul class="slidee" id="loading-feat">
+                    <li class="loading"><span class="feat-comic-fail">X</span></li>
+                    <li class="loading"><span class="feat-comic-fail">X</span></li>
+                    <li class="loading"><span class="feat-comic-fail">X</span></li>
+                    <li class="loading"><span class="feat-comic-fail">X</span></li>
+                    <li class="loading"><span class="feat-comic-fail">X</span></li>
+                    <li class="loading"><span class="feat-comic-fail">X</span></li>
+                </ul>
+                <ul class="load" id="load-fail-feat">FAILED TO LOAD</ul>
+                <ul class="slidee" id="feat-slidee"></ul>
+            </div>
+            <div class="pages"></div>
+        </div>
+
+        <div class="footer">
+            <p><a href="http://marvel.com">Data provided by Marvel. &copy;  2016 MARVEL</a>
+                 &copy; 2016 Marco Zamora</p>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/sly.min.js"></script>
+<script src="js/modules.js"></script>
+<script src="js/main-sly.js"></script>
+<script src="js/getComics.js"></script>
+<script src="js/slider.js"></script>
+</body>
+</html>

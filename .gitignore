@@ -1,0 +1,14 @@
+# webstorm
+.idea/
+
+# specific files and all images
+full-images/
+images/
+development/
+
+# libraries
+js/modules.js
+js/sly.min.js
+
+# other
+*.zip
