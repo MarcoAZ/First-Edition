@@ -51,9 +51,11 @@ $.ajax({
             parent.appendChild(li);
         }
 
+        $('#newFrame').show();
         createSlys('#newFrame');
-
+        $('#fake-new-frame').css("display", "none");
     }
+
 }).fail(function () {
     //for each comic, show the X for failure to load
     $('.new-comic-fail').each(
@@ -94,9 +96,9 @@ $.ajax({
             //apend to <ul> slidee
             parent.appendChild(li);
         }
-
+        $('#featFrame').show();
         createSlys('#featFrame');
-
+        $('#fake-feat-frame').css("display", "none");
     }
 }).fail(function () {
     $('.feat-comic-fail').each(

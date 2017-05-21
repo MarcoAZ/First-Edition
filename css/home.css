@@ -103,8 +103,9 @@
 .frame { 
     width: 100%;
     height: 300px;
-    padding: 0; 
-}
+    padding: 0;
+    display: none;
+}S
 
 .frame .slidee {
     margin: 0;
@@ -119,7 +120,7 @@
     margin: 0 8px 0 10px;
     padding: 0; 
     width: 140px; 
-    height: 80%;
+    height: 100%;
 }
 
 .frame .slidee li img {
@@ -148,6 +149,54 @@
     background-color: darkgrey;
     height: 95%;
     opacity: 0.2;
+}
+
+#fake-new-frame
+{
+    width: 100%;
+    height: 300px;
+    padding: 0;
+}
+
+#fake-feat-frame
+{
+    width: 100%;
+    height: 300px;
+    padding: 0;
+}
+
+#loading-new
+{
+    margin: 0;
+    padding: 0;
+    height: 80%;
+    width: 100%;
+    list-style: none;
+}
+
+#loading-new li {
+    float: left;
+    margin: 0 8px 0 10px;
+    padding: 0;
+    width: 140px;
+    height: 100%;
+}
+
+#loading-feat
+{
+    margin: 0;
+    padding: 0;
+    height: 80%;
+    width: 100%;
+    list-style: none;
+}
+
+#loading-feat li {
+    float: left;
+    margin: 0 8px 0 10px;
+    padding: 0;
+    width: 140px;
+    height: 100%;
 }
 
 .new-comic-fail
